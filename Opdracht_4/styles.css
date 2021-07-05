@@ -1,0 +1,27 @@
+body {
+color:blue;
+background-color:darkgrey;
+font-family: Arial, Helvetica, sans-serif;
+}
+.black-border {
+    border: 5px solid black;
+}
+#green-background {
+    background-color:green;
+}
+.anders {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    border: 5px solid blueviolet
+}
+.stamp {
+	width: 500px;
+	height: 414px;
+	background: #fff url(images/kaart_Caro.jpg) no-repeat;
+	border: 12px dashed #1b1a19; }
+.stamp p {
+	color: #fff;
+	margin: 5px 5px 0 0;
+	font: bold 30px Georgia, "Times New Roman", Times, serif;
+	text-align: right; }
