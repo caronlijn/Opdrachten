@@ -1,0 +1,59 @@
+header {
+	text-align: center;
+	font-family: cursive;
+	border-style: dotted;
+	border-color: red;
+	border-radius: 5px;
+	padding:5px 10px;
+	margin: 10px 5px 10px 25px;
+}
+main {
+	padding: 10px 5px 10px 20px;
+	border-style: double;
+	border-color: darkblue;
+	border-width: 10px;
+	margin: auto;
+}
+nav {
+	border-style: solid;
+	border-color: darkgrey;
+	margin: 20px 25px 10px 25px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:burlywood
+  }
+  li {
+	display: inline;
+	color:black;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  li a:hover:not(.active) {
+	  background-color: #111;
+  }
+  .active {
+	  background-color: #04AA6D;
+  }
+footer {
+	text-align: center;
+}
+.items {
+	font-style: italic;
+}
+.stamp {
+	width: 100px;
+	height: 80px;
+	background: #fff url(images/kaart_Caro.jpg) no-repeat;
+	border: 12px dashed #1b1a19; 
+	margin: 0 auto
+}
+.stamp p {
+	color: #fff;
+	margin: 5px 5px 0 0;
+	font: bold 30px Georgia, "Times New Roman", Times, serif;
+	text-align: right; }
