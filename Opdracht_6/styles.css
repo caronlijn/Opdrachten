@@ -1,0 +1,44 @@
+.soft-border {
+	border: double 5px lightgreen;
+	margin: 10px;
+	padding: 10px;
+	}
+
+	.midden{
+		margin: 0 auto;
+		width: 500px;
+	}
+
+	.navigatie li {
+		display: inline;
+		margin: 10px;
+	}
+
+.stamp {
+	width: 100px;
+	height: 84px;
+	background: #fff url(images/kaart_Caro.jpg) no-repeat;
+	border: 12px dashed #1b1a19; 
+}
+.stamp p {
+	color: #fff;
+	margin: 5px 5px 0 0;
+	font: bold 30px Georgia, "Times New Roman", Times, serif;
+	text-align: right; 
+}
+@media (max-width: 400px) {
+	body {
+		font-size: 150%;
+	}
+	
+}
+@media (min-width: 1024px) {
+	body {
+			background-color:rgb(117, 173, 173);
+			color: rebeccapurple;
+			font-size: 75%;
+			line-height: 200%;
+	}
+
+}
+
