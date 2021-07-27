@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caroonline</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <body>
+        <header class="soft-border"> 
+            <h1 class="midden">Website van Caroonline</h1>
+        </header>
+        <nav class="soft-border">
+            <a href="index.html"><h3>Home</h3></a>
+        </nav>
+        <main class="soft-border">
+            <a href="contact.html"><h2>Contact opnemen</h2></a>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Naam: <input type="text" name="name" /></label>   
+                  </p>
+                  <p>
+                    <label>Email: <input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                    <label>Telefoonnummer: <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{7}" /></label>
+                  </p>
+                  <p>
+                    <label>Geboortedatum: <input type="date" name="date" /></label>
+                 </p>
+                 <p>
+                    <label>Vrouw: <input type="radio" name="vrouw" /></label>
+                    <label>Man: <input type="radio" name="man" /></label>
+                  </p>
+                  <p>
+                    <label>Favoriete keuken: <br>
+                        <label> Frans<input type="checkbox" name="Frans" /></label><br>
+                        <label> Italiaans<input type="checkbox" name="Italiaans" /></label><br>
+                        <label> Spaans<input type="checkbox" name="Spaans" /></label><br>
+                        <label> Arabisch<input type="checkbox" name="Arabisch" /></label><br>
+                    </label>
+                  </p>
+                  <p>
+                    <label for="favcolor">Favoriet kleur van schort: 
+                        <input type="color" id="favcolor" name="favcolor"></label>  
+                  </p>
+                  <p>
+                    <label>Biografie: <textarea name="message"></textarea></label>
+                  </p>
+                  <p><label>Upload je laatste recept <input type="file" name="file"></label>
+                  <p>
+                    <label for="homepage">Geef je homepage door:
+                        <input type="url" name="homepage"></label>
+                   </p>
+                  </p>
+                  <p><label> <input type="reset"></label>
+                  </p>
+                  <p>
+                    <button type="submit">Verzenden</button>
+                  </p>
+            </form>
+        </main>
+        <footer class="soft-border midden">
+            <div class="stamp">
+                <p>99&cent;</p>
+            </div>
+            <h5>Copyright Caroonline</h5>
+        </footer>
+    </body>
+</html>
