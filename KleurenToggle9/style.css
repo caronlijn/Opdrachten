@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+body {
+  background-color: cadetblue;
+}
+.hamburger {
+  font-size: 3rem;
+  padding: 10px;
+}
+.colorName {
+  padding: 10px;
+}
+.colorName-hidden {
+display: none;
+}
+.colorName-visible {
+  display: block;
+}
+menu {
+  list-style-type: none;
+}
+.menu-closed {
+  position: relative;
+  left: -250px;
+  transition: left 500ms;
+}
+.menu-opened {
+  position: relative;
+  left: 0px;
+  transition: left 500ms;
+}
+.menuItem {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+}
+.menuItem + menuItem {
+  margin-top: 5px;
+}
+.body-cadetblue {
+  background: cadetblue;
+}
+.body-red {
+  background: red;
+}
+.body-green {
+  background: green;
+}
+.body-blue {
+  background: blue;
+}
+.body-purple {
+  background: purple;
+}
+.radiobutton {
+  margin-right: px;
+}
